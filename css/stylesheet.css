@@ -1,0 +1,113 @@
+/*stylesheet for module2 assignment*/
+
+*{
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+}
+@media (min-width: 992px) {
+
+    .div1, .div2, .div3{
+        float: left;
+        background-color: gray;
+        border: 1px solid black;
+        margin-bottom: 30px;
+        padding: 0px 0px 0px 0px;
+        margin-right:30px;
+        width:30%;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+
+   .div1, .div2, .div3{
+        float: left;
+        background-color: gray;
+        border: 1px solid black;
+        padding: 0px 0px 0px 0px;
+        margin-bottom:30px;
+        margin-right:30px;
+    }
+   .div1{
+       width: 45%;
+   }
+   .div2{
+       width:45%
+   }
+   .div3{
+       width: 93%;
+   }
+    
+}
+
+@media (max-width:767px) {
+    .div1, .div2, .div3{
+        float: left;
+        background-color: gray;
+        border: 1px solid black;
+        margin-bottom:30px;
+        width:90%;
+    }
+    
+}
+
+
+#head {
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 175%;
+}
+
+
+#sh1 {
+    border: 1px solid black;
+    position: relative;
+    text-align:center;
+    background-color: pink;
+    margin-top:-1px;
+    width: 150px;
+    height: 25px;
+    float:right;
+    font-size: 125%;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+#sh2 {
+    border: 1px solid black;
+    position: relative;
+    background-color: crimson;
+    float:right;
+    margin-top:-1px;
+    width: 150px;
+    height: 25px;
+    font-size: 125%;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+}
+
+#sh3 {
+    border: 1px solid black;
+    position:relative;
+    background-color: khaki;
+    margin-top:-1px;
+    float:right;
+    width: 150px;
+    height: 25px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    font-size:125%;
+}
+
+p{
+    width:90%;
+    margin-right: auto;
+    margin-left:auto;
+    font-style: italic bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
